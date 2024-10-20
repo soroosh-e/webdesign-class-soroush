@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+body {
+    font-family: "Agdasima", sans-serif;
+    
+}
+
+  
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login form {
+    background-color: #34495e;
+    padding: 50px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.login form > div {
+    margin-bottom: 20px;
+}
+
+.login form .label {
+    display: block;
+}
+
+.login form input {
+    padding: 8px;
+}
+
+.login button[type="submit"] {
+    background-color: #16a085;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login button[type="reset"] {
+    background-color: #e74c3c;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: space-between;
+}
