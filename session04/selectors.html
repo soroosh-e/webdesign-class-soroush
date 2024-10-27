@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: blueviolet;
+            transition: .5s ;
+        }
+
+        a:hover {
+            font-size: 18px;
+            color: aquamarine;
+        }
+
+        a:active {
+            color: brown;
+        }
+
+        /* .box p:first-child {
+            color: blue;
+        }
+
+        .box p:last-child {
+            color: blue;
+        } */
+
+        .box p:nth-child(2n) {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="http://google.com" target="_blank">google</a>
+    
+    <div class="box">
+        <p>part 1</p>
+        <p>part 2</p>
+        <p>part 3</p>
+        <p>part 4</p>
+        <p>part 5</p>
+        <p>part 6</p>
+    </div>
+</body>
+</html>
