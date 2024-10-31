@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/unsplash-vancouver-08.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* backdrop-filter: blur(10px); */
+}
+
+.login {
+    width: 350px;
+    height: auto;
+    padding: 40px 20px;
+    background-color: transparent;
+    /* margin: 0 auto;
+    margin-top: 150px; */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.6); 
+
+    /* background-image: url('images/unsplash-vancouver-08.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    position: relative; */
+
+
+    color: #fff;
+    border: 2px solid #a1a1a1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form input[type="email"], form input[type="password"]  {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #e2e2e2;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form button {
+    border: 1px solid #a1a1a1;
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 25px;
+    width: 100%;
+}
