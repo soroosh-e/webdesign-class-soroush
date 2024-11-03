@@ -11,12 +11,10 @@ body {
     background-image: url('images/unsplash-vancouver-08.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* backdrop-filter: blur(10px); */
 }
 
 .login {
@@ -45,6 +43,7 @@ form input[type="email"], form input[type="password"]  {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 form a {
@@ -59,4 +58,27 @@ form button {
     padding: 15px;
     border-radius: 25px;
     width: 100%;
+}
+
+.support-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    background-color: #fff;
+    color: #444;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.input-icon {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.socials a {
+    margin: 0 8px;
 }

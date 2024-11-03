@@ -33,3 +33,23 @@ body {
 .about-us .image {
     width: 20%;
 }
+
+.hr {
+    width: 705px;
+    height: 4px;
+    background-color: #25E6C8;
+}
+
+.nums {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nums h4 {
+    font-size: 40px;
+    color: #2BAAEC;
+    margin: 0;
+}
