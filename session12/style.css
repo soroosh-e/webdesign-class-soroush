@@ -1,0 +1,39 @@
+.parent {
+    width: 400px;
+    height: 400px;
+    background-color: #dadada;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    background-color: #5db1d3;
+
+    animation: cube 3s ease-in forwards infinite alternate 1s;
+}
+
+/* .parent:hover .child {
+    transform: scale(0.15, 0.65);
+} */
+
+@keyframes cube {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateY(100%);
+        background-color: #1916b4;
+        transform: scale(.6);
+    }
+
+    66% {
+        transform: translateX(100%) translateY(100%);
+        background-color: #097f1f;
+    }
+
+    100% {
+        transform: translateX(100%);
+        background-color: #5db1d3;
+    }
+}
