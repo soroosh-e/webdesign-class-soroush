@@ -1,0 +1,38 @@
+.header{
+    background-image: url(../images/backgroundimage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 811px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+nav ul li .icon{
+    margin-right: 412px;
+}
+nav ul li {
+    margin-right: 40px;
+}
+
+.nav-btn {
+    border-color: #722ED1;
+    color: #722ED1;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.nav-btn:hover {
+    border-color: #722ED1;
+    background-color: #722ED1;
+    color: #fff;
+}
