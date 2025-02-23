@@ -1,0 +1,28 @@
+$color: green;
+
+.box {
+    font-size: large;
+
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: gray;
+    }
+
+    ul {
+
+        li {
+            font-size: 14px;
+
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    color: $color;
+                }
+            }
+        }
+    }
+}
